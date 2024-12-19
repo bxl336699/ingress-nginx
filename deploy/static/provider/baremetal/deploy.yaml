@@ -420,7 +420,6 @@ spec:
         app.kubernetes.io/version: 1.12.0-beta.0
     spec:
       hostNetwork: true
-      nodeName: node1
       containers:
       - args:
         - /nginx-ingress-controller
